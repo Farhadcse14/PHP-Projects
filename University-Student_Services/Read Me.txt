@@ -1,0 +1,32 @@
+1. Add student details by the master control panel and send them username and password by email(student_services/admin/index.php)
+2. Student can login to their home page by the provided username and password. (student_services/public/index.php)
+
+3. After sending any request by the following student home page navbar that is needed for the logged in student, 
+the request will go to different admin panel like department admin, Librarian admin, Provost admin.
+
+4. If we send the request for library card, it will go to the librarian admin panel with our profile, after clicking the approve button by librarian admin,
+it will generate automatically a library card to "student home page- click Request for library card", student can download the soft copy of library card
+by clicking download button.
+
+5. Like the following step-4 student can get all the five services. The approve terms and paths are defined below.
+
+	i) Request for attestation letter(Chairman Admin Section Approve-Download attestation letter from student home page-request for attestation letter).
+	ii) Request for Id Card(Chairman Admin Section Approve-Provost admin Section Approve-Download Id Card from student home page-request for Id Card).
+	iii) Request for Appeared Certificate(Chairman Admin Section Approve-Download Appeared Certificate from student home page-request for Appeared Certificate).
+	iv) Request for Testimonial(Chairman Admin Section Approve-Download Testimonial from student home page-request for Testimonial).
+
+Librarian Admin Panel(student_services/admin/login.php):
+Username: library@gmail.com
+Password: 111111
+
+Chairman Admin Panel(student_services/admin/login.php):
+Username: teacher@gmail.com
+Password: 111111
+
+Provost Admin Panel(student_services/admin/login.php):
+Username: provost@gmail.com
+Password: 111111
+
+Master Admin Panel(student_services/admin/login.php):
+Username: admin@gmail.com
+Password: admin
